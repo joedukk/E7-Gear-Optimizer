@@ -1538,13 +1538,13 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgv_Inventory.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgv_Inventory.Location = new System.Drawing.Point(6, 40);
+            this.dgv_Inventory.Location = new System.Drawing.Point(0, 40);
             this.dgv_Inventory.Name = "dgv_Inventory";
             this.dgv_Inventory.ReadOnly = true;
             this.dgv_Inventory.RowHeadersWidth = 62;
             this.dgv_Inventory.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgv_Inventory.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_Inventory.Size = new System.Drawing.Size(1316, 398);
+            this.dgv_Inventory.Size = new System.Drawing.Size(1455, 398);
             this.dgv_Inventory.TabIndex = 1;
             this.dgv_Inventory.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgv_Inventory_CellFormatting);
             this.dgv_Inventory.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Dgv_Inventory_ColumnHeaderMouseClick);
@@ -2590,13 +2590,13 @@
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgv_Heroes.DefaultCellStyle = dataGridViewCellStyle4;
-            this.dgv_Heroes.Location = new System.Drawing.Point(7, 44);
+            this.dgv_Heroes.Location = new System.Drawing.Point(0, 44);
             this.dgv_Heroes.MultiSelect = false;
             this.dgv_Heroes.Name = "dgv_Heroes";
             this.dgv_Heroes.ReadOnly = true;
             this.dgv_Heroes.RowHeadersWidth = 62;
             this.dgv_Heroes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_Heroes.Size = new System.Drawing.Size(1319, 328);
+            this.dgv_Heroes.Size = new System.Drawing.Size(1455, 328);
             this.dgv_Heroes.TabIndex = 0;
             this.dgv_Heroes.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_Heroes_RowEnter);
             // 
@@ -5873,7 +5873,7 @@
             this.AutoScroll = true;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1469, 690);
+            this.ClientSize = new System.Drawing.Size(1480, 786);
             this.Controls.Add(this.tc_Main);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;

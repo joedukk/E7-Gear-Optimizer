@@ -65,7 +65,7 @@ namespace E7_Gear_Optimizer
         public Main()
         {
             InitializeComponent();
-            var task = Util.GetLatestVerion();
+            /*var task = Util.GetLatestVerion();
             task.ContinueWith((ver) =>
             {
                 this.Invoke((Action)delegate
@@ -95,7 +95,7 @@ namespace E7_Gear_Optimizer
                         }
                     }
                 });
-            });
+            });*/
             ServicePointManager.Expect100Continue = true;
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
                    | SecurityProtocolType.Tls11
